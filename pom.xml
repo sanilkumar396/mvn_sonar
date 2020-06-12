@@ -22,10 +22,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+  <!-- <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <url>http://3.16.76.246:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
+</distributionManagement> -->
+  
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory</name>
+        <url>http://3.17.133.155:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
