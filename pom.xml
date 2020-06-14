@@ -29,11 +29,24 @@
   </snapshotRepository>
 </distributionManagement> -->
   
-  <distributionManagement>
+ <!-- <distributionManagement>
     <snapshotRepository>
         <id>artifactory</id>
         <name>snapshots</name>
         <url>http://3.17.133.155:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>-->
+  
+  <distributionManagement>
+    <!--<repository>
+        <id>central</id>
+        <name>ip-172-31-21-0.us-east-2.compute.internal-releases</name>
+        <url>http://18.188.206.11:8081/artifactory/Sample</url>
+    </repository> -->
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>ip-172-31-21-0.us-east-2.compute.internal-snapshots</name>
+        <url>http://18.188.206.11:8081/artifactory/Sample</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
