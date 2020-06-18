@@ -43,10 +43,9 @@
         <name>ip-172-31-21-0.us-east-2.compute.internal-releases</name>
         <url>http://18.188.206.11:8081/artifactory/Sample</url>
     </repository> -->
-    <snapshotRepository>
-        <id>artifactory</id>
-        <name>ip-172-31-21-0.us-east-2.compute.internal-snapshots</name>
-        <url>http://18.188.206.11:8081/artifactory/Sample</url>
-    </snapshotRepository>
+   <snapshotRepository>
+    <id>nexus</id>
+    <url>http://3.21.46.230:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
 </distributionManagement>
 </project>
